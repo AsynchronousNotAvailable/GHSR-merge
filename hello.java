@@ -1,9 +1,9 @@
 public class hello{
     public static void main(String[] args) {
-        System.out.print(sayHelloFromMain());
+        System.out.print(sayHelloFromNewBranch());
     }
 
-    static String sayHelloFromMain(){
-        return new String("hi from main");
+    static String sayHelloFromNewBranch(){
+        return new String ("Hello from new branch");
     }
 }
